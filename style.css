@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+.x {
+  position: absolute;
+  animation: mymove 2s;
+}
+  @keyframes mymove {
+    from {margin-inline-start: 750px;}
+      to {margin-inline-start: 0px}
+}
